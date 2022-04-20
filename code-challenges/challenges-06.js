@@ -13,14 +13,14 @@
 
 const findMax = (arr) => {
     let max = arr[0];
-    for (let i = 0; i < arr.length; i++) {
+    for (let i = 1; i < arr.length; i++) {
         if (arr[i] > max) {
             max = arr[i]
         }
     }
     return max;
 }
-findMax([12, 32, 22, 45, 78, 12, 50])
+
 
 
 // -------------------------------------------------------------------------------------------------------
@@ -37,9 +37,9 @@ findMax([12, 32, 22, 45, 78, 12, 50])
 //  
 
 const sumNums = (arr) => {
-    let sum;
-    sum=arr[0]
-    for (let i = 1; i < arr.length; i++) {
+    let sum=0;
+    
+    for (let i = 0; i < arr.length; i++) {
         if (typeof arr[i] == "number") {
           sum = sum + arr[i]
       }
