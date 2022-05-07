@@ -7,7 +7,7 @@ describe('Challenge13-01', () => {
                 voter_Name: "Adam Scott",
                 votes_To: "James",
             },
-            { 
+            {
                 voter_Name: "Abril Blake",
                 votes_To: "Jade",
             },
